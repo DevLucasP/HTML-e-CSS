@@ -1,0 +1,75 @@
+body {
+    background: linear-gradient(#32CD32, #7CFC00, #7CFC00);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.game-board {
+    width: 100%;
+    height: 500px;
+    border-bottom: 15px solid #32CD32;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    background:  linear-gradient(#87CEEB, #E0F6FF);
+}
+
+.clouds {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.oculos {
+    position: absolute;
+    width: 80px;
+    bottom: 0;
+    animation: oculos-animacao 1.5s infinite linear;
+}
+
+.cup {
+    width: 150px;
+    position: absolute;
+    bottom: 0;  
+}
+
+.jump{
+    animation: jump 500ms ease-out;
+}
+
+@keyframes oculos-animacao {
+    from   {
+        right: 0;
+    }
+    to {
+        right: 100%;
+    }
+}
+
+@keyframes jump {
+
+   0% {
+    bottom: 0;
+   }
+
+   40% {
+    bottom: 180px;
+   }
+
+   50% {
+    bottom: 180px;
+   }
+
+   60% {
+    bottom: 180px;
+   }
+
+   100% {
+    bottom: 0;
+   }
+}
