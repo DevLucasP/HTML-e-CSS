@@ -1,2 +1,2 @@
 # Tcc
-https://DevLucasP/Projects/Tcc/index.html
+https://DevLucasP.github.oi/Projects/Tcc/index.html
