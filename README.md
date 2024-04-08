@@ -13,8 +13,8 @@
 # Menu
 # https://DevLucasP.github.io/Projects/Menu/index.html
 
-# Footer Responsivo
-# https://DevLucasP.github.io/Projects/Footer/index.html
+# Menu V2
+# https://DevLucasP.github.io/Projects/MenuV2/index.html
 
 # Footer Responsivo
 # https://DevLucasP.github.io/Projects/Footer/index.html
