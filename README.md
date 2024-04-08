@@ -8,7 +8,7 @@
 # https://DevLucasP.github.io/Projects/Cubo/index.html
 
 # Footer Responsivo
-# https://DevLucasP.github.io/Projects/FooterResponsivo/index.html
+# https://DevLucasP.github.io/Projects/Footer/index.html
 
 
 
