@@ -8,7 +8,7 @@
 # https://DevLucasP.github.io/Projects/Cubo/index.html
 
 # Jogo
-# https://DevLucasP.github.io/Projects/jogo/index.html
+# https://DevLucasP.github.io/Projects/Jogo/index.html
 
 # Menu
 # https://DevLucasP.github.io/Projects/Menu/index.html
