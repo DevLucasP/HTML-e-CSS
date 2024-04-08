@@ -1,5 +1,4 @@
-# Tcc
-# https://DevLucasP.github.io/Projects/Tcc/index.html
+# Projetos
 
 # Cards
 # https://DevLucasP.github.io/Projects/Cards/index.html 
@@ -16,14 +15,8 @@
 # Menu V2
 # https://DevLucasP.github.io/Projects/MenuV2/index.html
 
-# Footer Responsivo
-# https://DevLucasP.github.io/Projects/Footer/index.html
+# Sidebar
+# https://DevLucasP.github.io/Projects/Sidebar/index.html
 
-# Footer Responsivo
-# https://DevLucasP.github.io/Projects/Footer/index.html
-
-# Footer Responsivo
-# https://DevLucasP.github.io/Projects/Footer/index.html
-
-# Footer Responsivo
-# https://DevLucasP.github.io/Projects/Footer/index.html
+# Tcc
+# https://DevLucasP.github.io/Projects/Tcc/index.html
