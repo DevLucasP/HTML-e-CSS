@@ -1,7 +1,7 @@
 # Projetos
   Todos os meus projetos elaborados até agora
 # Portifolio
-  Meu Portifolio usando tudo que aprendi atée os dias de hoje.
+  Meu Portifolio usando tudo que aprendi até os dias de hoje.
 # https://DevLucasP.github.io/Projects/Portifolio/index.html
 # Cards
   Card para usar em determinados tipos de sites como lojas virtuais, 
