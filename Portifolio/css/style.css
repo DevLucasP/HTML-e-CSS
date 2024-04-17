@@ -1,8 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
 * {
     margin: 0;
     padding: 0;
-    box-sizing: 0;
+    box-sizing: border-box;
     font-family: "Open Sans", sans-serif;
+}
+
+:root {
+    --ciano: rgb(13, 224, 224);
+    --fundo: #2c2525;
+    --verde-claro: #27946a;
+    --verde-escuro: #005031;
 }
 
 html {
@@ -12,7 +21,7 @@ html {
 
 body {
     height: 9000px;
-    background-color: #19272e;
+    background-color: #ffffff;
 }
 
 h1,
@@ -22,7 +31,12 @@ h4,
 h5,
 h6 {
     color: #fff;
+    font-size: 49px;
     font-family: "Raleway", sans-serif;
+}
+
+p {
+    text-indent: 20px;
 }
 
 a {
@@ -38,56 +52,56 @@ a:hover {
 
 /* Header */
 
-.container{
+.nav-container {
     max-width: 1280px;
     margin: auto;
 }
 
-.flex{
+.flex {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-header{
+header {
     width: 100%;
     padding: 20px 4%;
     position: fixed;
-    z-index: 5;
+    z-index: 500;
     top: 0;
     left: 0;
     transition: .5s;
 }
 
-header.rolagem{
+header.rolagem {
     background-color: #19272e;
     padding: 10px 4%;
 }
 
-header.rolagem i{
+header.rolagem i {
     color: #27946a;
 }
 
-header i{
+header i {
     font-size: 30px;
     color: #ffffff;
 }
 
-header ul{
+header ul {
     list-style-type: none;
 }
 
-header ul li{
+header ul li {
     display: inline-block;
     margin: 0 40px;
 }
 
-header ul li a{
+header ul li a {
     color: #ffffff;
     text-decoration: none;
 }
 
-.btn-contato button{
+.btn-contato button {
     width: 120px;
     height: 40px;
     border-radius: 10px;
@@ -102,58 +116,54 @@ header ul li a{
 /* Hero */
 
 #hero {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    justify-content: space-around;
-    width: 100%;
     height: 100vh;
-    background-color: #853a3a;
-}
+    background-image: url('../img/fundo.jpg');
+    background-position: 100% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
 
-
-#hero:before {
-    content: "";
-    background: rgba(5, 13, 24, 0.3);
-    bottom: 0;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1;
+    align-items: center;
+    justify-content: center;
 }
 
 .hero-container {
-    position: relative;
-    margin-top: 250px;
-    z-index: 2;
-    min-width: 300px;
-    text-align: left;
-    color: #fff;
-    margin-bottom: 50px;
     font-size: 26px;
+    padding-top: 250px;
+    text-align: center;
     font-family: "Poppins", sans-serif;
 }
 
-#hero img {
-    border-radius: 50%;
-    margin-top: 200px;
-    width: 350px;
-    height: 350px;
+.hero-container .typed {
+    position: relative;
+    color: var(--ciano);
+    font-size: 50px;
+    font-weight: 600;
 }
-  
-#hero h1 {
-    margin: 0 0 10px 0;
-    font-size: 64px;
-    font-weight: 700;
-    line-height: 56px;
-    color: #fff;
+
+.hero-container h1{
+    font-size: 79px;
+    color: #FFF;
 }
-  
-#hero h2 span {
-    color: #fff;
-    padding-bottom: 4px;
-    letter-spacing: 1px;
-    border-bottom: 3px solid #149ddd;
+
+.typed:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    border-left: 2px solid var(--ciano);
+    animation: animate 4s steps(15) infinite;
+}
+
+@keyframes animate{
+    40%, 60%{
+        left: calc(100% + 8px);
+    }
+    100%{
+        left: 0%;
+    }
 }
   
 @media (min-width: 1024px) {
@@ -178,5 +188,26 @@ header ul li a{
 /* Conteúdo */
 
 #main {
-    background-color: #19272e;
+    background-color: #ffffff;
+    display: flex;
+}
+
+#main img {
+    border-radius: 32px;
+    box-shadow: 10px 17px 33px 1px black;
+    margin: 60px;
+    width: 500px;
+    height: 600px;
+}
+
+#about {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 32px;
+    margin-right: 32px;
+    text-align: justify;
+}
+
+#about h1 {
+    color: #000000;
 }
