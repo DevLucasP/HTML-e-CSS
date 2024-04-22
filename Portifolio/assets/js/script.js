@@ -59,11 +59,8 @@ const text = document.querySelector(".typed");
         text.textContent = "Web Developer";
       }, 2500);
       setTimeout(() => {
-        text.textContent = "Frontend Developer";
-      }, 4500); 
-      setTimeout(() => {
         text.textContent = "Designer";
-      }, 6500); 
+      }, 4500); 
 }
 textLoad();
-setInterval(textLoad, 10500);
+setInterval(textLoad, 7000);
