@@ -1,9 +1,12 @@
+/* Scroll*/ 
+
 window.addEventListener("scroll", function(){
     let header = document.querySelector('#header')
     header.classList.toggle('rolagem', window.scrollY > 500)
 })
 
- /* Menu */
+/* Menu */
+
 class MobileNavbar {
   constructor(mobileMenu, navList, navLinks) {
     this.mobileMenu = document.querySelector(mobileMenu);
@@ -48,19 +51,3 @@ const mobileNavbar = new MobileNavbar(
   ".nav-list li",
 );
 mobileNavbar.init();
-/* Hero */
-
-const text = document.querySelector(".typed");
-  const textLoad = () => {
-    setTimeout(() => {
-      text.textContent = "Freelancer";
-      }, 0);
-      setTimeout(() => {
-        text.textContent = "Web Developer";
-      }, 2500);
-      setTimeout(() => {
-        text.textContent = "Designer";
-      }, 4500); 
-}
-textLoad();
-setInterval(textLoad, 7000);
