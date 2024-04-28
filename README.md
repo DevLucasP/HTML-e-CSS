@@ -21,3 +21,6 @@
 
 # Sidebar
 - https://DevLucasP.github.io/Projects/Sidebar/index.html
+
+# Typewriter effect
+- https://DevLucasP.github.io/Projects/Typewritereffect/index.html
