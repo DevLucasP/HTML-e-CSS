@@ -23,4 +23,4 @@
 - https://DevLucasP.github.io/Projects/Sidebar/index.html
 
 # Typewriter effect
-- https://DevLucasP.github.io/Projects/Typewritereffect/index.html
+- https://DevLucasP.github.io/Projects/Typewrite reffect/index.html
