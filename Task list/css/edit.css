@@ -29,14 +29,18 @@ body {
 /* Topo*/
 .topo {
   display: flex;
-  
+  font-size: 20px;
   text-align: center;
-  justify-content: space-around;
   align-items: center;
+  justify-content: space-around;
+}
+
+.topo h3 {
+  padding-top: 9px;
+  text-align: center;
 }
 
 /* Container*/
-
 .container {
   height: 500px;
   width: 300px;
@@ -50,37 +54,79 @@ body {
   margin-left: 520px;
 }
 
-.container h3 {
-  padding-top: 9px;
-  text-align: center;
-}
-
-/* Topo*/
-
-.topo {
-  padding-top: 8px;
-}
-
 /* Info*/
 .info {
   background-color: #1C1818;
-  height: 272px;
+  height: 300px;
   width: 283px;
-  padding: 6px;
-  border-radius: 5px;
+  padding: 0 6px;
+  border-radius: 15px;
   margin: 8px;
+  margin-bottom: 0;
 }
 
 .info ul li {
-  color: #fff;
+  color: #d8cfcf;
   display: grid;
-  padding-top: 3px;
+  padding: 3px 0 0 13px;
   text-align: left;
   list-style: none;
 }
 
 .info p {
-  color: #fff;
+  color: #d8cfcf;
+  padding: 10px 0 0 10px;
   text-align: left;
   font-size: 16px;
+}
+
+/* Bottom */
+.bottom {
+  display: flex;
+  margin-top: 26px;
+  justify-content: space-around;
+}
+
+#save {
+  height: 30px;
+  width: 101px;
+  border-radius: 5px;
+  border: transparent;
+  cursor: pointer;
+  background-color: #E2AF24;
+}
+
+#save p {
+  color: #000000;
+  font-size: 19px;
+}
+
+#del {
+  height: 30px;
+  width: 35px;
+  border-radius: 5px;
+  border: transparent;
+  cursor: pointer;
+  background-color: #E2AF24;
+}
+
+#del i {
+  font-size: 19px;
+}
+
+/* Menu */
+nav {
+  background-color: #5a5656;
+  margin-top: 54px;
+  height: 46px;
+  padding: 11px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  border-radius: 0 0 15px 15px;
+}
+
+nav a {
+  color: #000000;
+  font-size: 21px;
 }
