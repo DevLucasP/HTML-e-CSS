@@ -7,13 +7,16 @@
 }
 
 /* Gerais */
-
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
+  color: #fff;
+}
+
+a {
   color: #fff;
 }
 
@@ -31,7 +34,6 @@ body {
 }
 
 /* Container*/
-
 .container {
   height: 500px;
   width: 300px;
@@ -51,14 +53,12 @@ body {
 }
 
 /* Lista de Tarefas */
-
 .task-list {
   display: grid;
   gap: 8px;
 }
 
 /* Tarefas*/
-
 .tarefa {
   height: 35px;
   width: 270px;

@@ -17,6 +17,16 @@ h6 {
   color: #fff;
 }
 
+a {
+  color: #fff;
+  text-decoration: none;
+  transition: .3s;
+}
+
+a:hover {
+  opacity: 0.9;
+}
+
 p {
   font-size: 13px;
   color: #757070;
@@ -85,6 +95,14 @@ body {
   display: flex;
   margin-top: 26px;
   justify-content: space-around;
+}
+
+.bottom p {
+  color: #000000;
+}
+
+.bottom a {
+  color: #000000;
 }
 
 #save {
