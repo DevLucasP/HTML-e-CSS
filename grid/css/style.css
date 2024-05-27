@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: url('https://f.i.uol.com.br/fotografia/2019/09/06/15678160345d72f962ba486_1567816034_3x2_md.jpg') center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 246px 246px 246px;
+    margin: 100px 0 0 550px;
+    gap: 2px;
+}
+
+.container img {
+    border-radius: 25px;
+    transition: transform 0.3s ease;
+}
+
+.container img:hover {
+    transform: scale(1.1);
+}
