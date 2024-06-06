@@ -51,17 +51,25 @@ body {
     display: grid;
     grid-template-columns: calc(25% - 15px ) calc(25% - 15px ) calc(25% - 15px )calc(25% - 15px );
     background: transparent;
-    height: 760px;
+    height: 70px;
+    margin-left: 10px;
+    margin-right: 10px;
     grid-gap: 20px;
 }
 
 .container {
-    background: #fff;
     padding: 10px;
+    background: #ffffffd7;
     border-radius: 15px;
 }
 
 .grupo {
     background: transparent;
     padding: 10px;
+}
+
+.grupo img {
+    height: 50px;
+    border-radius: 3px;
+    border: 1px solid black;
 }
