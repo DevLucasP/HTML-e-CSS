@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js"></script>
+    <title>Calculadora</title>
+</head>
+<body>
+  <header id="header" class="header">
+    <nav class="nav-bar">
+      <ul class="nav-list">
+        <li><a class="nav-link" href="#"><h1>Calculadora em JavaScirpt <i class="fa-brands fa-square-js" style="color: #FFD43B;"></i></h1></a></li>
+      </ul>
+    </nav>
+  </header>
+
+    <div class="container">
+      <h1>CALCULADORA</h1>
+      <p id="result"></p>
+        <table>
+            <tr>
+              <td><button class="btn" onclick="limpar ('')">C</button></td>
+              <td><button class="btn" onclick="voltar ('')"><</button></td>
+              <td><button class="btn" onclick="insere ('*')">*</button></td>
+              <td><button class="btn" onclick="insere ('/')" >/</button></td>
+            </tr>
+            <tr>
+              <td><button class="btn" onclick="insere ('7')">7</button></td>
+              <td><button class="btn" onclick="insere ('8')">8</button></td>
+              <td><button class="btn" onclick="insere ('9')">9</button></td>
+              <td><button class="btn" onclick="insere ('-')">-</button></td>
+            </tr>
+            <tr>
+              <td><button class="btn" onclick="insere ('4')">4</button></td>
+              <td><button class="btn" onclick="insere ('5')">5</button></td>
+              <td><button class="btn" onclick="insere ('6')">6</button></td>
+              <td><button class="btn" onclick="insere ('+')">+</button></td>
+            </tr>
+            <tr>
+              <td><button class="btn" onclick="insere ('1')">1</button></td>
+              <td><button class="btn" onclick="insere ('2')">2</button></td>
+              <td><button class="btn" onclick="insere ('3')">3</button></td>
+              <td rowspan="2"><button class="btn"  style="height : 106px" onclick="calcular()">=</button></td>
+            </tr>
+            <tr>
+              <td colspan="2"><button class="btn" onclick="insere ('0')" style="width: 106px;">0</button></td>
+              <td><button class="btn" onclick="insere('.')">.</button></td>
+            </tr>
+        </table>
+    </div> 
+</body>
+</html>
